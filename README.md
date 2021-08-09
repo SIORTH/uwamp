@@ -1,72 +1,15 @@
-Documentation
-UwAmp Install
-Update PHP or Apache config manualy
-MySQL Account
-Macros
+h1 Installation
+ 
+h2 Step 0:
+Download the PHP 7.4.x/8.0.x zip/rar version from the PHP Download site for Windows x86. Choose the x64 Thread Safe version if you have 64bit Windows. As of now PHP 8.0.1 is available so I have downloaded [PHP 7.4.x/8.0.x(7.4.x/8.0.x)](https://www.uwamp.com/en/?page=download"Download").
 
-UwAmp Install
-UwAmp is available in 3 formats, exe, rar et zip.
+h2 Step 1:
+Locate to your WAMP directory, (usually C:/wamp). Go to C:/wamp/bin/php and create a new folder “php8.0.1″ and extract the content of downloaded php .zip file here.
 
-For Zip and Rar format, just uncompress.
-The Exe is an NSIS installtion with LZMA compression.
+h2 Step 2:
+Now, navigate to your old PHP folder. (mine is php7.1.10), and copy wampserver.conf from old and paste it to your “php8.0.1″ folder.
 
-To Remove UwAmp just remove the folder.
-
-Update PHP or Apache config manualy
-If you want change configuration directly in file update this files :
-
-Config file for apache : bin/apache/conf/httpd_uwamp.conf
-Config file for PHP : bin/php/php_[*]/php_uwamp.ini
-Config file for MySQL : database/mysql-*/my_uwamp.ini
-
-
-MySQL Account
-utilisateur "root"
-mot de passe "root"
-
-
-
-Macros
-UwAmp use a macro to create configuration file with good path. You can use macro in all file with "_uwamp" in name.
-
-Macros list
-
-{APACHEPATH}
-Absolute path to Apache : UwAmp\apache
-
-{DOCUMENTPATH}
-Absolute path to UwAmp www : UwAmp\www
-
-{PHPPATH}
-Absolute path to selected PHP version : UwAmp\bin\php\php_[CURRENT VERSION]\
-
-{PHPAPACHE2FILE}
-Absolute path to PHP DLL : UwAmp\bin\php\CURRENT PHP IN UWAMP CONTROL\CURRENT apache2.dll
-
-{PHPEXTPATH}
-Absolute path to PHP extention folder : UwAmp\bin\php\php_[CURRENT VERSION]\ext
-
-{PHPMODULENAME}
-Current PHP module name for Apache
-
-{MYSQLPATH}
-Absolute path to MySQL : UwAmp\database\mysql-[CURRENT VERSION]
-
-{MYSQLBINPATH}
-Absolute path to MySQL bin : UwAmp\database\mysql-[CURRENT VERSION]\bin
-
-{MYSQLDATAPATH}
-Absolute path to MySQL data path : UwAmp\database\mysql-[CURRENT VERSION]\data
-
-{ONLINE_MODE}
-If UwAmp is on Online mode, your website is available for all.
-{ONLINE_MODE} will be replaced by :
-Order allow,deny
-Allow from all
-
-If UwAmp is on Offline mode, your website is available only for your computer.
-{ONLINE_MODE} will be replaced by :
-Order deny,allow
-Allow from 127.0.0.1 localhost
+h2 Step 3:
+Now, go to C:/wamp/bin/php/php8.0.1 folder and locate file php.ini-development. Copy it and rename to php.ini in the same directory.
 
 [Download Here](https://www.uwamp.com/en/?page=download"Download")
