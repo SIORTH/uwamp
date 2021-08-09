@@ -3,8 +3,10 @@
 ## Laravel Error PHP Ver
 ## and
 ## other framework using php 7.4.x/latest 
-
-
+  
+  
+  
+   
 # Installation
  
 ## Step 0:
