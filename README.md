@@ -1,8 +1,8 @@
 # SOLVED UWAMP
-## Codeigniter 4 Error PHP Ver
-## Laravel Error PHP Ver
-## and
-## other framework using php 7.4.x/latest 
+### Codeigniter 4 Error PHP Ver
+### Laravel Error PHP Ver
+#### and
+### other framework using php 7.4.x/latest 
   
   
   
