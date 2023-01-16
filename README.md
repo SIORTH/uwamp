@@ -1,4 +1,4 @@
-# SOLVED UWAMP PHP 7 ERROR
+# SOLVED UWAMP PHP 7 & 8 ERROR
 ### Codeigniter 4 Error PHP Ver
 ### Laravel Error PHP Ver
 #### and
